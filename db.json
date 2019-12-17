@@ -1,13 +1,13 @@
 {
   "survey_properties": {
-    "id": "survey00001",
+    "id": 1,
     "intro_message": "None...It will be skipped!",
     "end_message": "Thank you for having the time to take our survey.",
     "skip_intro": true
   },
   "questions": [
     {
-      "id": "1",
+      "id": 1,
       "question_type": "Radioboxes",
       "question_title": "What is your age group ?",
       "description": "type a number",
@@ -22,7 +22,7 @@
       ]
     },
     {
-      "id": "2",
+      "id": 2,
       "question_type": "Radioboxes",
       "question_title": "GENDER ?",
       "description": "choose one item",
@@ -34,7 +34,7 @@
       ]
     },
     {
-      "id": "3",
+      "id": 3,
       "question_type": "Checkboxes",
       "question_title": "With what technologies you work ?",
       "description": "the name of technology like Ajax, Laravel, Jquery, UnrealEngine, ...",
@@ -52,21 +52,21 @@
       ]
     },
     {
-      "id": "4",
+      "id": 4,
       "question_type": "String",
       "question_title": "What is your desktop operating system ?",
       "description": "name of common operation systems like: linux, windows, mac, ...",
       "required": true
     },
     {
-      "id": "5",
+      "id": 5,
       "question_title": "How much are you paid ?",
       "description": "[per year]",
       "required": true,
       "question_type": "Number"
     },
     {
-      "id": "6",
+      "id": 6,
       "question_type": "StringMultiline",
       "question_title": "Why do you like your job as a developer ?",
       "description": "type a reasone like: because i can create new thinds",
