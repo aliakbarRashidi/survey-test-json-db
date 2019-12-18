@@ -1,77 +1,233 @@
 {
-  "survey_properties": {
-    "id": "hashOfSurvey",
-    "intro_message": "None...It will be skipped!",
-    "end_message": "Thank you for having the time to take our survey.",
-    "skip_intro": true
-  },
-  "questions": [
-    {
-      "id": "hashOfQuestion1",
-      "question_type": "Radioboxes",
-      "question_title": "What is your age group ?",
-      "description": "type a number",
-      "required": true,
-      "random_choices": false,
-      "choices": [
-        "less than 20",
-        "20-30",
-        "30-40",
-        "40-50",
-        "50+"
-      ]
+  "hashOfSurvey1": {
+    "survey_properties": {
+      "intro_message": "None...It will be skipped!",
+      "end_message": "Thank you for having the time to take our survey.",
+      "start_date": "13981201-18:24",
+      "end_date": "13981203-00:00",
+      "skip_intro": true
     },
-    {
-      "id": "hashOfQuestion2",
-      "question_type": "Radioboxes",
-      "question_title": "GENDER ?",
-      "description": "choose one item",
-      "required": true,
-      "random_choices": true,
-      "choices": [
-        "male",
-        "female"
-      ]
-    },
-    {
-      "id": "hashOfQuestion3",
-      "question_type": "Checkboxes",
-      "question_title": "With what technologies you work ?",
-      "description": "the name of technology like Ajax, Laravel, Jquery, UnrealEngine, ...",
-      "required": false,
-      "random_choices": true,
-      "choices": [
-        "Java",
-        "C++",
-        "PHP",
-        "Javascript",
-        "C#",
-        "SQL",
-        "Python",
-        "Node.js"
-      ]
-    },
-    {
-      "id": "hashOfQuestion4",
-      "question_type": "String",
-      "question_title": "What is your desktop operating system ?",
-      "description": "name of common operation systems like: linux, windows, mac, ...",
-      "required": true
-    },
-    {
-      "id": "hashOfQuestion5",
-      "question_title": "How much are you paid ?",
-      "description": "[per year]",
-      "required": true,
-      "question_type": "Number"
-    },
-    {
-      "id": "hashOfQuestion6",
-      "question_type": "StringMultiline",
-      "question_title": "Why do you like your job as a developer ?",
-      "description": "type a reasone like: because i can create new thinds",
-      "required": false,
-      "number_of_lines": 2
+    "questions": {
+      "hashOfQuestion1": {
+        "question_type": "Radioboxes",
+        "question_title": "What is your age group ?",
+        "description": "type a number",
+        "required": true,
+        "random_choices": false,
+        "choices": [
+          "less than 20",
+          "20-30",
+          "30-40",
+          "40-50",
+          "50+"
+        ]
+      },
+      "hashOfQuestion2": {
+        "id": "hashOfQuestion2",
+        "question_type": "Radioboxes",
+        "question_title": "GENDER ?",
+        "description": "choose one item",
+        "required": true,
+        "random_choices": true,
+        "choices": [
+          "male",
+          "female"
+        ]
+      },
+      "hashOfQuestion3": {
+        "id": "hashOfQuestion3",
+        "question_type": "Checkboxes",
+        "question_title": "With what technologies you work ?",
+        "description": "the name of technology like Ajax, Laravel, Jquery, UnrealEngine, ...",
+        "required": false,
+        "random_choices": true,
+        "choices": [
+          "Java",
+          "C++",
+          "PHP",
+          "Javascript",
+          "C#",
+          "SQL",
+          "Python",
+          "Node.js"
+        ]
+      },
+      "hashOfQuestion4": {
+        "id": "hashOfQuestion4",
+        "question_type": "String",
+        "question_title": "What is your desktop operating system ?",
+        "description": "name of common operation systems like: linux, windows, mac, ...",
+        "required": true
+      },
+      "hashOfQuestion5": {
+        "id": "hashOfQuestion5",
+        "question_title": "How much are you paid ?",
+        "description": "[per year]",
+        "required": true,
+        "question_type": "Number"
+      },
+      "hashOfQuestion6": {
+        "id": "hashOfQuestion6",
+        "question_type": "StringMultiline",
+        "question_title": "Why do you like your job as a developer ?",
+        "description": "type a reasone like: because i can create new thinds",
+        "required": false,
+        "number_of_lines": 2
+      }
     }
-  ]
+  },
+  "hashOfSurvey2": {
+    "survey_properties": {
+      "intro_message": "None...It will be skipped!",
+      "end_message": "Thank you for having the time to take our survey.",
+      "start_date": "13981201-18:24",
+      "end_date": "13981203-00:00",
+      "skip_intro": true
+    },
+    "questions": {
+      "hashOfQuestion1": {
+        "question_type": "Radioboxes",
+        "question_title": "What is your age group ?",
+        "description": "type a number",
+        "required": true,
+        "random_choices": false,
+        "choices": [
+          "less than 20",
+          "20-30",
+          "30-40",
+          "40-50",
+          "50+"
+        ]
+      },
+      "hashOfQuestion2": {
+        "id": "hashOfQuestion2",
+        "question_type": "Radioboxes",
+        "question_title": "GENDER ?",
+        "description": "choose one item",
+        "required": true,
+        "random_choices": true,
+        "choices": [
+          "male",
+          "female"
+        ]
+      },
+      "hashOfQuestion3": {
+        "id": "hashOfQuestion3",
+        "question_type": "Checkboxes",
+        "question_title": "With what technologies you work ?",
+        "description": "the name of technology like Ajax, Laravel, Jquery, UnrealEngine, ...",
+        "required": false,
+        "random_choices": true,
+        "choices": [
+          "Java",
+          "C++",
+          "PHP",
+          "Javascript",
+          "C#",
+          "SQL",
+          "Python",
+          "Node.js"
+        ]
+      },
+      "hashOfQuestion4": {
+        "id": "hashOfQuestion4",
+        "question_type": "String",
+        "question_title": "What is your desktop operating system ?",
+        "description": "name of common operation systems like: linux, windows, mac, ...",
+        "required": true
+      },
+      "hashOfQuestion5": {
+        "id": "hashOfQuestion5",
+        "question_title": "How much are you paid ?",
+        "description": "[per year]",
+        "required": true,
+        "question_type": "Number"
+      },
+      "hashOfQuestion6": {
+        "id": "hashOfQuestion6",
+        "question_type": "StringMultiline",
+        "question_title": "Why do you like your job as a developer ?",
+        "description": "type a reasone like: because i can create new thinds",
+        "required": false,
+        "number_of_lines": 2
+      }
+    }
+  },
+  "hashOfSurvey3": {
+    "survey_properties": {
+      "intro_message": "None...It will be skipped!",
+      "end_message": "Thank you for having the time to take our survey.",
+      "start_date": "13981201-18:24",
+      "end_date": "13981203-00:00",
+      "skip_intro": true
+    },
+    "questions": {
+      "hashOfQuestion1": {
+        "question_type": "Radioboxes",
+        "question_title": "What is your age group ?",
+        "description": "type a number",
+        "required": true,
+        "random_choices": false,
+        "choices": [
+          "less than 20",
+          "20-30",
+          "30-40",
+          "40-50",
+          "50+"
+        ]
+      },
+      "hashOfQuestion2": {
+        "id": "hashOfQuestion2",
+        "question_type": "Radioboxes",
+        "question_title": "GENDER ?",
+        "description": "choose one item",
+        "required": true,
+        "random_choices": true,
+        "choices": [
+          "male",
+          "female"
+        ]
+      },
+      "hashOfQuestion3": {
+        "id": "hashOfQuestion3",
+        "question_type": "Checkboxes",
+        "question_title": "With what technologies you work ?",
+        "description": "the name of technology like Ajax, Laravel, Jquery, UnrealEngine, ...",
+        "required": false,
+        "random_choices": true,
+        "choices": [
+          "Java",
+          "C++",
+          "PHP",
+          "Javascript",
+          "C#",
+          "SQL",
+          "Python",
+          "Node.js"
+        ]
+      },
+      "hashOfQuestion4": {
+        "id": "hashOfQuestion4",
+        "question_type": "String",
+        "question_title": "What is your desktop operating system ?",
+        "description": "name of common operation systems like: linux, windows, mac, ...",
+        "required": true
+      },
+      "hashOfQuestion5": {
+        "id": "hashOfQuestion5",
+        "question_title": "How much are you paid ?",
+        "description": "[per year]",
+        "required": true,
+        "question_type": "Number"
+      },
+      "hashOfQuestion6": {
+        "id": "hashOfQuestion6",
+        "question_type": "StringMultiline",
+        "question_title": "Why do you like your job as a developer ?",
+        "description": "type a reasone like: because i can create new thinds",
+        "required": false,
+        "number_of_lines": 2
+      }
+    }
+  }
 }
